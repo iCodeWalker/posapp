@@ -1,0 +1,12 @@
+.btn_style {
+  width: 160px;
+  height: 45px;
+  border: 1px solid grey;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}

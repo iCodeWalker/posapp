@@ -1,0 +1,39 @@
+.main_container {
+  display: flex;
+  padding: 20px;
+  border: 0.3px solid rgb(228, 220, 220);
+}
+.item_style {
+  width: 400px;
+  background-color: aliceblue;
+  font-size: 16px;
+  margin: 15px;
+  padding: 10px;
+  font-weight: 500;
+  text-align: start;
+  border: 1px solid rgb(219, 216, 216);
+}
+.error_style {
+  font-size: 22px;
+  color: red;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.message_style {
+  font-size: 22px;
+  color: rgb(46, 6, 6);
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px;
+}
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+.title_style {
+  color: rgb(53, 30, 30);
+  text-decoration: wavy;
+  font-weight: 800;
+  font-family: "Times New Roman";
+  margin: 1px;
+}
