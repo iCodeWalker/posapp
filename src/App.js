@@ -12,7 +12,7 @@ function App() {
         <div>
           <Switch>
             <Route path="/" exact component={HomeScreen} />
-            <Route path="/cart" exact component={CartList} />
+            <Route path="/cart" component={CartList} />
           </Switch>
         </div>
       </Router>
