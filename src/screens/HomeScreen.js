@@ -12,7 +12,7 @@ import history from "../history";
 
 const HomeScreen = () => {
   const onIconClick = () => {
-    history.push("cart");
+    history.push("/cart");
 
     window.location.reload();
   };
