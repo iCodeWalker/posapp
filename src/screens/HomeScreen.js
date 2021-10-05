@@ -7,11 +7,19 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { connect } from "react-redux";
 
 import "./HomeScreen.css";
+import CartList from "../components/CartList";
 import history from "../history";
 
 const HomeScreen = () => {
+  const showCartPage = () => {
+    if (window.location.pathname === "/cart") {
+      return <CartList />;
+    }
+  };
+
   const onIconClick = () => {
     history.push("/cart");
+    showCartPage();
     window.location.reload();
   };
   let cart = JSON.parse(localStorage.getItem("cartItems"));

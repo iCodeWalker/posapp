@@ -9,7 +9,7 @@ import history from "../history";
 class ItemList extends React.Component {
   onAddToCartButtonClick = (i) => {
     this.props.addToCart(i);
-    history.push("/cart");
+    history.push("cart");
   };
   onDeleteButtonClick = (i) => {
     this.props.deleteItem(i);
